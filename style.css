@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(31, 30, 30); 
+}
+
+
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+h2{
+   text-align: center;
+   color: blue;  
+}
+p{
+    color: rgb(109, 109, 243);
+}
+
+img { display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto; }
+.image:hover{
+    width: 400px;
+    height: 300px; 
+    transition: 1s linear;
+}
+div{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+main{
+   margin-left: 120px;
+}
+nav a{
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+nav a:hover{
+    left: 0;
+}
+.blog{
+    top: 80px;
+    background-color: #2196F3;
+}
+.projects{
+    top: 140px;
+    background-color: #f44336 ;
+}
+.about{
+    top: 20px;
+    background-color: #4CAF50;
+}
+.contact{
+    top: 200px;
+    background-color: #555 ;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
